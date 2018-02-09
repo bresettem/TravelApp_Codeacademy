@@ -14,6 +14,7 @@
 					<div class="card col-xs-4">
 					<h2> <%= d.name %> </h2>
 					<p> <%= d.description %> </p>
+					<%= link_to "See more", destination_path(d) %>
 				</div>
 			<% end %>
 		</div>
